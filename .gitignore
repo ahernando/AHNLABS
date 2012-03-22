@@ -1,0 +1,24 @@
+# archivos que genera loalmente Symfony2 para mejorar rendimiento
+app/bootstrap.php.cache
+app/bootstrap_cache.php.cache
+
+# directorio con todos los archivos de cache (muchisimos archivos)
+app/cache/*
+
+# directorio de los archivos de log (pcoso archivos pero muy grandes)
+app/logs/*
+
+# directorio con todos los componentes y librerias de Symfony2
+vendor/*
+
+# directorio donde Symfony2 vuelca atodos los archivos web publicos
+web/bundles/*
+web/css/*
+web/js/*
+
+# archivos creados por los IDEs Eclipse, Zend Studio, Netbeans y PhpStorm
+.buildpath
+.project
+.settings
+nbproject
+.idea
